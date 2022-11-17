@@ -1,0 +1,131 @@
+.grid-layout {
+    /* width: 80vw; */
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 12.5rem 12.5rem;
+    grid-template-rows: 12.5rem 12.5rem;
+    grid-auto-rows: 12.5rem;
+    grid-auto-columns: 12.5rem;
+    /* background-color: #e4e4e4; */
+    /* gap: 1rem; */
+}
+
+/* @media (max-width: 375px) {
+    .grid-layout {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-rows: 1fr;
+    }
+    
+} */
+
+.grid-item-1 {
+    position: relative;
+    width: 21.4375rem;
+    height: 22.75rem;
+    background-color: #755CDE;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin: 32px 16px;
+    grid-row: 1 / span 2;
+    grid-column: 1 / span 2;
+    
+}
+
+.grid-item-2 {
+    position: relative;
+    width: 164px;
+    height: 182px;
+    background-color: #F6A560;
+    padding: 24px;
+    border-radius: 8px;
+    margin: 32px 16px;
+    grid-row: 1;
+    grid-column: 3;
+    
+}
+
+.grid-item-3 {
+    position: relative;
+    width: 164px;
+    height: 182px;
+    background-color: #F39E9E;
+    padding: 24px;
+    border-radius: 8px;
+    margin: 32px 16px;
+    grid-row: 1;
+    grid-column: 4;
+    
+}
+
+.grid-item-4 {
+    position: relative;
+    width: 354px;
+    height: 158px;
+    background-color:#EB7565;
+    padding: 24px;
+    border-radius: 8px;
+    margin: 32px 16px;
+    grid-row: 2;
+    grid-column: 3 / span 2;
+    
+}
+
+.grid-item-5 {
+    position: relative;
+    width: 354px;
+    height: 158px;
+    background-color: #61C4B7;
+    padding: 24px;
+    border-radius: 8px;
+    /* margin: 32px 16px; */
+    grid-row: 1;
+    grid-column: 5 / span 2;
+    
+}
+
+.grid-item-6 {
+    position: relative;
+    width: 354px;
+    height: 158px;
+    background-color: #552049;
+    padding: 24px;
+    border-radius: 8px;
+    /* margin: 32px 16px; */
+    grid-row: 2;
+    grid-column: 5 / span 2;
+    
+}
+
+[class^='grid-item'] {
+    /* outline: 3px dashed #f90; */
+  }
+
+.box-logo-lg {
+    margin-left: auto;
+    width: 8rem;
+    height: 12rem;
+}
+
+.box-logo-md {
+    margin-left: auto;
+    width: 128px;
+    height: 64px;
+}
+
+.box-logo-sm {
+    margin-left: auto;
+    width: 64px;
+    height: 64px;
+}
+
+.box-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    text-align:start;
+    margin-bottom: 24px;
+}
