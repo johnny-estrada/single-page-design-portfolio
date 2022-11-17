@@ -1,15 +1,19 @@
 .hero {
+    margin: 1.4375rem auto;
+    max-width: 47rem;
     text-align: center;
-    padding: 20px 29px;
 }
 
 .hero__title {
-    font-size: 36px;
+    font-size: 3.5rem;
+    line-height: 4.438rem;
     font-weight: 700;
     color: #030303;
-    padding-bottom: 16px;
 }
 
 .hero__text {
+    line-height: 1.563rem;
+    padding: 0.937rem;
     color: #7A746E;
+    padding: 1.4375rem;
 }
