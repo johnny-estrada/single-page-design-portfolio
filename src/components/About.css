@@ -36,9 +36,14 @@
     height: 56px;
     background-color: #eb7565;
     border-radius: 28px;
+    cursor: pointer;
     color: #fff;
     font-size: 16px;
     font-weight: 700;
     line-height: 28px;
     border: none;
+}
+
+.card__cta:hover {
+    background-color: #F6A560;
 }
