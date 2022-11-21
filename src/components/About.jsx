@@ -5,7 +5,6 @@ function About() {
     <>
       <section className="section">
           <img className="card__img" src="./images/image-amy.webp" alt="Amy" />
-
         <div className="card__content">
           <h2 className="card__title">
             I’m Amy, and I’d love to work on your next project
