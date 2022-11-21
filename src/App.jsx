@@ -13,7 +13,7 @@ function App() {
       <Hero />
       <Boxes />
       <About />
-      {/* <Navbar /> */}
+      <Navbar />
     </div>
   )
 }
